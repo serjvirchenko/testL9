@@ -17,7 +17,7 @@ and then
 bower install
 ```
 
-###Building project
+### Building project
 
 To build project use command
 
