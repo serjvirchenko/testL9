@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <!-- inject:css -->
+
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="components/weatherComponent/weather.css">
+        <link rel="stylesheet" href="components/weatherComponent/components/item/item.css">
+        <link rel="stylesheet" href="components/weatherComponent/components/dashboard/components/row/row.css">
+
+        <!-- endinject -->
+
+    </head>
+    <body ng-app="app">
+
+
+        <weather-component></weather-component>
+
+        <!-- inject:js -->
+
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="shared/weatherService/weather.service.js"></script>
+        <script src="components/weatherComponent/weather.component.js"></script>
+        <script src="components/weatherComponent/components/item/item.component.js"></script>
+        <script src="components/weatherComponent/components/dashboard/dashboard.component.js"></script>
+        <script src="components/weatherComponent/components/dashboard/components/row/row.component.js"></script>
+
+        <!-- endinject -->
+    </body>
+</html>

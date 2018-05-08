@@ -1,0 +1,18 @@
+<div class="row" ng-if="$ctrl.showDate">
+    <div class="col">
+        <p class="date">{{$ctrl.currentDate | date: 'yyyy-MM-dd'}}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-2">
+        <span class="time">{{$ctrl.currentDate | date: 'HH:mm'}}</span>
+    </div>
+    <div class="col-10">
+        <p>{{$ctrl.inputData.main.temp_min}} - {{$ctrl.inputData.main.temp_max}} C</p>
+        <span>Humidity: {{$ctrl.inputData.main.humidity}}</span>
+        <span>Wind: {{$ctrl.inputData.wind.speed}} m/s</span>
+        <span>Clouds: {{$ctrl.inputData.clouds.all}} %</span>
+        <span>Weather: {{$ctrl.inputData.weather[0].description}}</span>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+row {
+  display: block;
+  border-bottom: 1px solid #cfcfcf; }
+  row p {
+    margin-bottom: 0; }
+  row .date {
+    background: #9fcdff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=row.css.map */

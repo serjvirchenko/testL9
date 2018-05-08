@@ -1,0 +1,7 @@
+weather-component .weather__header {
+  display: flex;
+  justify-content: center; }
+weather-component .dashboard-wrapper {
+  background: #eff7ff; }
+
+/*# sourceMappingURL=weather.css.map */

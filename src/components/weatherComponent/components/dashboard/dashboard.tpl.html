@@ -1,0 +1,4 @@
+<h2>{{$ctrl.city}}</h2>
+<div ng-repeat="data in $ctrl.weatherData.list">
+    <row input-data="data" prev-date="$ctrl.weatherData.list[$index-1].dt"></row>
+</div>

@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+            <item city-data="cityData" ng-repeat="cityData in $ctrl.citiesData" ng-click="$ctrl.getWeatherForecast(cityData.data.name)" ng-class="{active: $ctrl.selectedCity === cityData.data.name}"></item>
+        </div>
+        <div class="col-10 dashboard-wrapper">
+            <dashboard weather-data="$ctrl.result" city="$ctrl.selectedCity"></dashboard>
+        </div>
+    </div>
+</div>
